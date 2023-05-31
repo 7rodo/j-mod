@@ -1,4 +1,4 @@
-package example;
+package j;
 
 import arc.*;
 import arc.util.*;
@@ -9,10 +9,10 @@ import mindustry.gen.*;
 import mindustry.mod.*;
 import mindustry.ui.dialogs.*;
 
-public class ExampleJavaMod extends Mod{
+public class jMod extends Mod{
 
-    public ExampleJavaMod(){
-        Log.info("Loaded ExampleJavaMod constructor.");
+    public jMod(){
+        Log.info("Loaded jMod constructor.");
 
         //listen for game load event
         Events.on(ClientLoadEvent.class, e -> {
